@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>GovindarajanRakshana-hw9 WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>GovindarajanRakshana-hw9.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>63F156821EAE16A20066BDBB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63F156961EAE16A30066BDBB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63F156A11EAE16A30066BDBB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63F156AA1EAE16A30066BDBB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

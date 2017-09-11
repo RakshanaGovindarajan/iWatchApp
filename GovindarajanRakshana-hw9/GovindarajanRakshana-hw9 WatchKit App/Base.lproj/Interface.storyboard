@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="GovindarajanRakshana_hw9_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" text="My Watch App" id="oa3-yC-3me"/>
+                        <separator alignment="center" id="PA6-Jx-dXC"/>
+                        <label alignment="center" verticalAlignment="center" text="Label" id="lWh-TS-v4x">
+                            <color key="textColor" red="0.88790847080000002" green="0.66143438089999995" blue="0.1926443997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </label>
+                        <button width="1" alignment="center" verticalAlignment="bottom" title="Next" id="4BV-5p-Eb7">
+                            <color key="titleColor" red="0.00022263601039999999" green="0.00022263601039999999" blue="0.00022263601039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.68606444213238438" green="0.83920923223350252" blue="0.25463193780216908" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="btnNext" destination="AgC-eL-Hgc" id="JG4-EV-aTg"/>
+                            </connections>
+                        </button>
+                        <separator alignment="center" verticalAlignment="bottom" id="6LA-E7-iLw">
+                            <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </separator>
+                    </items>
+                    <connections>
+                        <outlet property="lblText" destination="lWh-TS-v4x" id="VGj-bK-bm6"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
